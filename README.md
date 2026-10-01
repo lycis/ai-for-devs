@@ -70,3 +70,9 @@ Curriculum.md              Six-module course outline
 ## Contributing
 
 Corrections, clearer explanations, and exercise improvements are welcome. Include the module and file in your issue or pull request, and explain the proposed change. For slide changes, keep the editable Markdown and any updated exports consistent.
+
+## License
+
+Educational materials are licensed under [CC BY-SA 4.0](LICENSE-CC-BY-SA-4.0). Source code and code examples are licensed under [MIT](LICENSE-MIT).
+
+See [Licensing](LICENSE.md) for the scope, attribution guidance, and third-party exceptions. Contributions are provided under the applicable license for the material contributed.
