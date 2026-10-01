@@ -21,7 +21,7 @@ Modules 1 and 2 are designed as two-hour workshops. Their teaching materials are
 
 ## Getting started
 
-**For participants:** Start with the relevant module README. Modules 1 and 2 include presentation PDFs and worksheets; module 6 includes a starter application with exercises to complete.
+**For participants:** Start with the relevant module README. Modules 1 and 2 include editable slide sources and worksheets; module 6 includes a starter application with exercises to complete.
 
 **For trainers:** Review the [curriculum](Curriculum.md), then use each module's `Trainer/` directory for facilitation notes and solutions. Module READMEs describe preparation and workshop timing.
 
@@ -53,9 +53,11 @@ The starter uses Microsoft Agent Framework, `Microsoft.Extensions.AI`, and Mistr
 
 ## Presentations
 
-Modules 1 and 2 include editable Marp Markdown, HTML presentations, and PDF exports. You can read the PDFs directly or edit the slide sources with Marp for VS Code.
+Modules 1 and 2 include editable Marp Markdown and the image assets needed to render the slides. Open the sources with Marp for VS Code, or generate HTML presentations and PDF exports locally. Generated exports are ignored by Git.
 
 Each module README includes export commands. When sharing Markdown or HTML presentations, include the corresponding `assets/` directory. PDF exports are self-contained.
+
+Worksheets and trainer notes are maintained as Markdown and can be printed or exported to PDF from a Markdown editor. The repository keeps sources and required assets; generated documents, build output, backups, and local credentials stay outside version control.
 
 ## Repository layout
 

@@ -3,8 +3,6 @@
 Erster Review-Entwurf: **18 Folien, 120 Minuten**, Coding-Dojo in Zweier- oder Dreiergruppen. Sprache und Gestaltung folgen Modul 1. Inhaltliche Grundlage ist die bereitgestellte Modul-2-Outline vom 01.10.2026.
 
 - [MARP-Quelle mit Moderationsnotizen](module-2-ai-assisted-coding.marp.md)
-- [HTML-Präsentation](module-2-ai-assisted-coding.html)
-- [PDF-Präsentation](module-2-ai-assisted-coding.pdf)
 - [Kopierbare Aufgaben und Beobachtungsbogen](arbeitsblatt-modul-2.md)
 - [Trainerleitfaden](Trainer/modul-2-leitfaden.md)
 - [Bildprompts und Herkunft](assets/image-prompts.md)
@@ -26,7 +24,7 @@ Erster Review-Entwurf: **18 Folien, 120 Minuten**, Coding-Dojo in Zweier- oder D
 
 ## Präsentieren und exportieren
 
-MARP-Quelle mit Marp for VS Code öffnen. Markdown und HTML benötigen den mitgelieferten `assets`-Ordner. Das PDF ist eigenständig.
+MARP-Quelle mit Marp for VS Code öffnen. HTML und PDF werden lokal aus der Marp-Quelle erzeugt und nicht in Git gespeichert. Markdown und HTML benötigen den mitgelieferten `assets`-Ordner. Das PDF ist eigenständig. Das Arbeitsblatt kann über einen Markdown-Editor gedruckt oder als PDF exportiert werden.
 
 ```powershell
 npx --yes @marp-team/marp-cli 2-ai-assisted-coding/module-2-ai-assisted-coding.marp.md --html -o 2-ai-assisted-coding/module-2-ai-assisted-coding.html

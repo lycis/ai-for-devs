@@ -2,11 +2,8 @@
 
 Die [Marp-Präsentation](module-1-ai-basics.marp.md) umfasst **48 Folien und 120 Minuten einschließlich 10 Minuten Pause**.
 
-- [HTML-Präsentation](module-1-ai-basics.html)
-- [PDF-Präsentation](module-1-ai-basics.pdf)
 - [Kopierbares Arbeitsblatt](arbeitsblatt-modul-1.md)
 - [Aktueller Trainerleitfaden mit Lösungen](Trainer/modul-1-leitfaden.md)
-- [Druckfertige Moderationsnotizen als PDF](../output/pdf/modul-1-moderationsnotizen.pdf) mit Zeitankern, Notizen zu allen 48 Folien und Lösungshinweisen auf 12 A4-Seiten
 - [Bearbeitbare Moderationsnotizen](Trainer/modul-1-moderationsnotizen.md)
 
 ## Ablauf
@@ -30,7 +27,7 @@ Moderationsnotizen stehen als HTML-Kommentare in der Marp-Datei. Der aktuelle Tr
 
 ## Präsentieren und exportieren
 
-Markdown mit Marp for VS Code öffnen. Beim Weitergeben der Markdown- oder HTML-Version den Ordner `assets` mitkopieren. Das PDF ist eigenständig.
+Markdown mit Marp for VS Code öffnen. HTML und PDF werden lokal aus der Marp-Quelle erzeugt und nicht in Git gespeichert. Beim Weitergeben der Markdown- oder HTML-Version den Ordner `assets` mitkopieren. Das PDF ist eigenständig. Arbeitsblatt und Moderationsnotizen liegen als Markdown vor und können über einen Markdown-Editor gedruckt oder als PDF exportiert werden.
 
 ```powershell
 npx --yes @marp-team/marp-cli 1-ai-basics/module-1-ai-basics.marp.md --html -o 1-ai-basics/module-1-ai-basics.html

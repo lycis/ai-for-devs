@@ -62,6 +62,13 @@ appsettings.Development.local.json
 *.backup.*
 /1-ai-basics/Trainer/module-1-before-review-2026-09-17.md
 
+# Generated presentations and printable documents
+/1-ai-basics/**/*.pdf
+/1-ai-basics/**/*.html
+/2-ai-assisted-coding/**/*.pdf
+/2-ai-assisted-coding/**/*.html
+/output/
+
 # Local tool state and credentials
 .codex/
 .agents/
