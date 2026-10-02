@@ -1,5 +1,7 @@
 # 2-Hour Hands-On Training: Building Reliable AI Agents in C#
 
+> Historische Outline und Entwurfsgrundlage. Für die Durchführung gelten der [aktuelle Trainerleitfaden](modul-6-leitfaden.md) und das [Teilnehmerarbeitsblatt](../arbeitsblatt-modul-6.md). Die unten beschriebenen zusätzlichen Szenarien, Dateien und Schnittstellen sind teilweise Entwürfe und nicht im Starter implementiert.
+
 **Audience:** Experienced C#/.NET developers with limited or mixed LLM experience  
 **Format:** Pair programming or small groups, code-heavy, minimal slides  
 **Core scenario:** A travel-booking agent working against a fake API  

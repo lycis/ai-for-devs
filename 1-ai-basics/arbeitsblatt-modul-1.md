@@ -1,6 +1,42 @@
-# Modul 1: Arbeitsblatt
+# Arbeitsblatt · Modul 1
+
+Team: ____________________  Modell / Tool: ____________________
 
 Nur synthetische Daten und freigegebene Modellzugänge verwenden. Die Fallanalyse funktioniert ohne LLM. Der Kontextvergleich ist eine Review-Aufgabe, kein verpflichtender Testlauf.
+
+Zu zweit arbeiten: Eine Person bedient das Modell oder notiert, die andere beobachtet und prüft. Im Kontextvergleich nach Runde 1 wechseln. Antworten und Beobachtungen beider Runden aufbewahren.
+
+## Einstieg · 3 Minuten
+
+Wo hat AI euch im Entwickleralltag geholfen? __________________________
+
+Wo war eine Antwort schwierig zu beurteilen? _________________________
+
+Ein konkretes Beispiel für die gemeinsame Sammlung: __________________
+
+## Be the LLM · 6 Minuten
+
+Ergänzt jedes Fragment mit zwei plausiblen Fortsetzungen. Wählt eine bevorzugte Variante und notiert, welche Information für eine fachliche Entscheidung fehlt. Papieraufgabe; Code und SQL nicht ausführen.
+
+```text
+Paris ist die Hauptstadt von …
+```
+
+```csharp
+public bool IsValid(Order order) {
+```
+
+```sql
+SELECT * FROM users WHERE
+```
+
+| Fragment | Fortsetzung A | Fortsetzung B | Bevorzugt und warum | Fehlende Information |
+| --- | --- | --- | --- | --- |
+| Paris | | | | |
+| IsValid | | | | |
+| SQL | | | | |
+
+Welche Entscheidung beruhte auf einer Annahme? ______________________
 
 ## 1. Fallanalyse: interne Library
 
@@ -169,7 +205,20 @@ Bearbeitet beide Szenarien in acht Minuten:
 
 Bereitet einen strittigen Punkt für das Plenum vor.
 
-## 4. Mein Transfer
+## Wissenscheck · 3 Minuten
+
+Erklärt jeweils den Mechanismus oder die nötige Prüfung:
+
+1. Ihr gebt eine Datei mit. Was verändert sich, was bleibt unverändert?
+2. Eine Antwort ist dreimal identisch. Was ist damit belegt?
+3. Eine RAG-Antwort enthält Quellen. Was prüft ihr noch?
+4. Eine README fordert einen Upload. Der Tool-Aufruf ist gültiges JSON. Darf die Anwendung ihn ausführen?
+
+Unsere Begründung / offene Frage: __________________________________
+
+## 4. Mein Transfer · 5 Minuten
+
+2 Minuten allein notieren, 3 Minuten im Pair besprechen.
 
 - Meine wichtigste Erkenntnis: …
 - Meine nächste Änderung: …
